@@ -3,6 +3,7 @@
 #include <math.h>
 #include "calculator.h"
 
+//format input for calculator to understand
 std::string calculator::format(std::string input){
   std::string output = "";
 
@@ -14,6 +15,7 @@ std::string calculator::format(std::string input){
 	return output;
 }
 
+//calculate formatted input
 float calculator::calculate(std::string input){
   std::string splitEquation[equation.length()];
 

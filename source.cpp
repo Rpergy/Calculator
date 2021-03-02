@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <math.h>
 
 //Format Equation to be read by calculator
 std::string format(std::string input){
@@ -51,7 +52,9 @@ float calculate(std::string equation){
 		output = std::stof(splitEquation[0]) * std::stof(splitEquation[2]);
 	else if(splitEquation[1] == "/")
 		output = std::stof(splitEquation[0]) / std::stof(splitEquation[2]);
-
+	else if(splitEquation[1] == "^")
+		output = pow(std::stof(splitEquation[0]), std::stof(splitEquation[2]));
+	
 
 	return output;
 }

@@ -16,7 +16,7 @@ std::string calculator::format(std::string input){
 }
 
 //calculate formatted input
-float calculator::calculate(std::string input){
+float calculator::calculate(std::string equation){
   std::string splitEquation[equation.length()];
 
 	std::string currentTerm = "";

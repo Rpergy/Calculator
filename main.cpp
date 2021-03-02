@@ -9,3 +9,7 @@ int main(){
 	std::cout << calculator::calculate(calculator::format(input)) << std::endl;
 }
 
+/*TODO:
+	- Add multiple operation support
+	- Add other forms of calculating(fractions, gcf, lcm, etc.)
+*/

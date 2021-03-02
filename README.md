@@ -1,6 +1,8 @@
 # Calculator
-A simple calculator made in C++<br>
-So far it only works with two terms (`a + b`), but I will add more features later.<br><br>
+<h3>A simple calculator made in C++</h3><br><br>
+<h2>List of operations:</h2><br>
+<p>-Addition(+)<br>-Subtraction(-)<br>-Multiplication(*)<br>-Division(/)<br>-Exponents(^)</p><br>
+<h3>Note: So far it only works with two terms (`a + b`), but I will add more features later.</h3><br><br>
 Changelog:<br>
 - Added exponent function
 - Switched to header files

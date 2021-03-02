@@ -20,7 +20,7 @@ float calculate(std::string equation){
 	std::string currentTerm = "";
 	for(int i = 0; i < equation.length(); i++){
 		//If char is an operator then add the last term to a new array spot
-		if(equation[i] == '+' || equation[i] == '-' || equation[i] == '*' || equation[i] == '/'){
+		if(equation[i] == '+' || equation[i] == '-' || equation[i] == '*' || equation[i] == '/' || equation[i] == '^'){
 			for(int ii = 0; ii < (sizeof(splitEquation) / sizeof(splitEquation[0])); ii++){
 				if(splitEquation[ii] == ""){
 					splitEquation[ii] = currentTerm;

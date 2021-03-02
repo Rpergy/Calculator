@@ -1,4 +1,4 @@
-# Calculator
+<h1>Calculator<h1>
 <h3>A simple calculator made in C++</h3><br><br>
 <h2>List of operations:</h2><br>
 <p>-Addition(+)<br>-Subtraction(-)<br>-Multiplication(*)<br>-Division(/)<br>-Exponents(^)</p><br>

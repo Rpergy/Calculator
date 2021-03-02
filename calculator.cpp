@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+#inclide <math.h>
 #include "calculator.h"
 
 std::string calculator::format(std::string input){

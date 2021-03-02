@@ -6,6 +6,6 @@ int main(){
 
 	std::string input = "";
 	getline(std::cin, input);
-	std::cout << calculate(format(input)) << std::endl;
+	std::cout << calculator::calculate(calculator::format(input)) << std::endl;
 }
 
